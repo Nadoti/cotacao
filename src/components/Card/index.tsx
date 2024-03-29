@@ -1,6 +1,12 @@
+import { ComponentType } from "react";
 import styles from "./card.module.css"
+interface CardProps  {
+  title: string;
+  money: string;
+  icon: ComponentType<{ size: number, color: string }>; 
+}
 
-export function Card({ icon: Icon, title, money }) {
+export function Card({ icon: Icon, title, money }: CardProps) {
   
   return (
     <div className={styles.container}>
