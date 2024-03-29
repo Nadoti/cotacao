@@ -1,0 +1,50 @@
+
+
+.containerPeriod {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 1rem;
+  gap: 2rem; 
+}
+
+.select {
+  display: block;
+  padding: .5rem .5rem;
+  border-radius: 4px;
+  margin-top: .5rem;
+}
+
+.label {
+  padding: .3rem .5rem;
+  border-radius: 20px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  transition: all .3s;
+}
+
+.label:hover,
+.labelActive {
+  color: #5CC09E;
+  background: #D8F5EB;
+}
+
+.btnPeriod {
+  padding: .3rem .5rem;
+  border-radius: 20px;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.btnPeriod:hover {
+  color: #5CC09E;
+  background: #D8F5EB;
+}
+
+@media (min-width: 992px) and (max-width: 1600px) {
+  .select {
+    padding: .5rem .5rem;
+  }
+}

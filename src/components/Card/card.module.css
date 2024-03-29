@@ -1,0 +1,35 @@
+
+
+.container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2em 2rem 2rem 1rem;
+  background: white;
+  border-radius: 4px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.content {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  gap: .5rem;
+}
+
+.title {
+  font-size: 1.5rem;
+}
+
+
+@media (min-width: 992px) and (max-width: 1600px) {
+  .container {
+    padding: 1rem;
+  }
+}

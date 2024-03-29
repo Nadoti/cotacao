@@ -1,0 +1,20 @@
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+p, h1,h2, button, input, label {
+  font-family: roboto;
+}
+
+input[type="radio"] {
+  display: none;
+}
+
+.VictoryContainer {
+  height: initial !important;
+}
